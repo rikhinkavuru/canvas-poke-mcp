@@ -107,7 +107,3 @@ The included [`render.yaml`](render.yaml) configures a free web service.
 3. Add your `POKE_API_KEY` so Poke can authenticate (sent as `x-api-key` or `Authorization: Bearer`).
 
 Then just ask Poke *"What do I need to do today on Canvas?"* — or call a tool directly: *"Use the Canvas MCP connection's `get_today_summary` tool."*
-
-## Credits
-
-Built on the original [`poke-canvas-mcp`](https://github.com/Shashwatpog/poke-canvas-mcp) by [Shashwat Mishra](https://github.com/Shashwatpog), who did the hard work of reverse-engineering which Canvas endpoints a student token can actually reach. Licensed under [MIT](LICENSE).
